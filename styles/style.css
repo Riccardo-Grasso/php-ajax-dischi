@@ -1,3 +1,7 @@
+body {
+    height: 100vh;
+}
+
 header .navbar{
     height: 70px;
     background-color: #2e3a46;
@@ -9,4 +13,27 @@ header .navbar img {
 
 main {
     background-color: #1e2d3b;
+    min-height: 100%;
 }
+
+.card {
+    background-color: #2e3a46!important;
+    height: 400px;
+}
+
+.card img {
+        width: 80%;
+        margin-top: 10%;
+}
+.card-body {
+    width: 100%;
+}
+.card-title {
+color: white;
+}
+
+.card-text {
+    color: lightgray;
+}
+
+    
