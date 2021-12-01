@@ -15,9 +15,15 @@ require __DIR__ . "/components/pageHead.php"
     ?>
 
     <!-- MAIN -->
-    <?php
-    include_once  "components/main_php.php"
-    ?>
+    <main>
+        <div class="container">
+            <div class="row row-cols-5 pt-5 g-4" id="CardsContainer">
+            </div>
+        </div>
+    </main>
+
+    </main>
+    <script src="main.js"></script>
 </body>
 
 </html>
