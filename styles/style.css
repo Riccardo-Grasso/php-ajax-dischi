@@ -1,0 +1,12 @@
+header .navbar{
+    height: 70px;
+    background-color: #2e3a46;
+}
+
+header .navbar img {
+    height: 90%;
+}
+
+main {
+    background-color: #1e2d3b;
+}
